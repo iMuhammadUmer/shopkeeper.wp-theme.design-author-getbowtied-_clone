@@ -42,3 +42,8 @@ header nav ul li {
   font-size: 13px;
   font-weight: 700;
 }
+main {
+  height: 570px;
+  width: 100%;
+  background-image: url(./images/slide02blonde.jpg);
+}
