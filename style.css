@@ -13,6 +13,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: transparent;
 }
 #logo {
   height: 50px;
@@ -46,4 +47,18 @@ main {
   height: 570px;
   width: 100%;
   background-image: url(./images/slide02blonde.jpg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .content {
+  width: 50%;
+  height: 100px;
+  text-align: center;
+  color: white;
+}
+main h1 {
+  font-size: 73px;
+  font-weight: 900;
+  line-height: 88px;
 }
