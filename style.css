@@ -144,13 +144,25 @@ p {
 }
 .collection .content {
   width: 100%;
-  height: 450px;
+  height: 500px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: grey;
 }
+.collection a {
+  height: inherit;
+  width: inherit;
+}
 .collection .col {
   width: 375px;
   height: 450px;
+}
+#bodysuits {
+  background-image: url(./images/slide03blonde-1.jpg);
+}
+.collection .cat {
+  margin: 2em;
+  padding: 0.5em 0.5em 0.5em 0.5em;
+  background-color: white;
 }
