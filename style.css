@@ -147,22 +147,47 @@ p {
   height: 500px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  background-color: grey;
+  margin-top: 2em;
 }
 .collection a {
   height: inherit;
   width: inherit;
 }
 .collection .col {
-  width: 375px;
-  height: 450px;
+  width: 430px;
+  height: 500px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
 }
 #bodysuits {
   background-image: url(./images/slide03blonde-1.jpg);
+  background-size: cover;
+}
+#shirts {
+  background-image: url(./images/categories-grid-07.jpg);
+  background-size: cover;
+}
+#jumpers {
+  background-image: url(./images/categories-grid-08.jpg);
+  background-size: cover;
 }
 .collection .cat {
   margin: 2em;
   padding: 0.5em 0.5em 0.5em 0.5em;
   background-color: white;
+  color: black;
+  transition: 0.25s ease-in-out;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+}
+.collection .cat:hover {
+  background-color: black;
+  color: white;
+}
+.collection .col .row {
+  width: inherit;
+  height: 235px;
+  background-color: black;
 }
