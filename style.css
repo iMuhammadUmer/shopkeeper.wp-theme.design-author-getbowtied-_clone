@@ -6,6 +6,14 @@
 :root {
   --price: rgb(119, 164, 100);
   --black: #545454;
+  --brownSelectionColor: #ec7a5c;
+  --greySelectionColor: #728d7f;
+  --orangeSelectionColor: #d8a15f;
+  --silverSelectionColor: #e8e8e8;
+  --greenSelectionColor: #647242;
+  --greenSelectionColor: #647242;
+  --btnSeller: #2a2a2a;
+  --btnSellerHover: #606060;
 }
 a {
   text-decoration: none;
@@ -193,12 +201,68 @@ p {
   background-color: black;
 }
 .popularWeek {
-  width: 70%;
-  height: 600px;
+  width: 60%;
+  height: 550px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-direction: column;
-  background-color: black;
   margin-top: 3em;
+}
+.popularWeek .row {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: space-between;
+}
+.popularWeek .row .col {
+  width: 240px;
+  height: inherit;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+#popularWeekImg1:hover {
+  background-image: url(./images/org-a-350x435.jpg);
+}
+#brownSelectionColor {
+  background-color: var(--brownSelectionColor);
+}
+#greySelectionColor {
+  background-color: var(--greySelectionColor);
+}
+#silverSelectionColor {
+  background-color: var(--silverSelectionColor);
+}
+#orangeSelectionColor {
+  background-color: var(--orangeSelectionColor);
+}
+#greenSelectionColor {
+  background-color: var(--greenSelectionColor);
+}
+.colorSelection {
+  height: 22px;
+  width: 22px;
+  border-radius: 50%;
+  margin-right: 0.5em;
+  background-color: black;
+}
+span {
+  display: flex;
+}
+button {
+  width: 180px;
+  height: 45px;
+  text-transform: uppercase;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  font-size: 12px;
+  font-weight: 700;
+  color: white;
+  background-color: var(--btnSeller);
+  transition: 0.25s ease-in-out;
+}
+button:hover {
+  background-color: var(--btnSellerHover);
 }
