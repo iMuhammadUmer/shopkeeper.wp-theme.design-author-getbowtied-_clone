@@ -268,4 +268,23 @@ button:hover {
 }
 footer {
   width: 100%;
+  display: flex;
+  justify-content: center;
+}
+footer .col {
+  width: 50%;
+  height: 490px;
+  padding: 3em;
+}
+#footerLeftCol {
+  background-image: url(./images/slide03blonde-1.jpg);
+}
+#footerRightCol {
+  background-image: url(./images/slide02blonde.jpg);
+}
+footer h1 {
+  font-size: 25px;
+  line-height: 37px;
+  font-weight: 600;
+  color: black;
 }
