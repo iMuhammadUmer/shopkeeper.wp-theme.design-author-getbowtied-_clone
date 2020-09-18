@@ -283,8 +283,20 @@ footer .col {
   background-image: url(./images/slide02blonde.jpg);
 }
 footer h1 {
+  width: 240px;
   font-size: 25px;
   line-height: 37px;
   font-weight: 600;
   color: black;
+}
+footer p {
+  font-size: 13px;
+  margin-top: 1.5em;
+  font-weight: 700;
+  color: black;
+  text-transform: uppercase;
+  transition: 0.25s ease-in-out;
+}
+footer p:hover {
+  color: var(--black);
 }
